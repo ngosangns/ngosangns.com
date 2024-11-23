@@ -1,10 +1,11 @@
 media:
+  type: 
   input: src/content/posts/media
   output: media
 content:
-  - name: posts
+  - type: collection
+    name: posts
     label: Posts
-    type: collection
     path: 'src/content/posts'
     subfolders: false
     view:
