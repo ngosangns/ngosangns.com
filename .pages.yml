@@ -11,16 +11,16 @@ content:
     view:
       fields: [ title, draft, date ]
     fields:
-      - name: draft
+      - type: boolean
+        name: draft
         label: 'Is draft'
-        type: boolean
         default: true
-      - name: date
+      - type: date
+        name: date
         label: Date
-        type: date
-      - name: title
+      - type: string
+        name: title
         label: Title
-        type: string
-      - name: body
+      - type: rich-text
+        name: body
         label: Body
-        type: rich-text
