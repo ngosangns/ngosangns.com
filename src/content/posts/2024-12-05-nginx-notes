@@ -5,7 +5,7 @@ title: NGINX notes
 
 NGINX is a configuration language. It runs by the priority of commands, not from top to bottom.
 
----
+***
 
 We can use the `rewrite` directive with the `last` parameter to tell NGINX to stop processing the current set of rewrite directives and start a new internal request with the rewritten URL.
 
@@ -15,7 +15,7 @@ if ($allow != 1) {
 }
 ```
 
----
+***
 
 In this example, `auth_request` will run before `try_files`. Because `try_files` can accept another named `location`, we can use this trick to make a fallback location if commands prior to `try_files` do not rewrite the URL:
 
@@ -33,7 +33,7 @@ location @auth_success {
 }
 ```
 
----
+***
 
 Another useful trick is using the `map` directive to create variables based on conditions. This can be helpful for setting flags or modifying behavior based on request parameters:
 
@@ -50,7 +50,7 @@ server {
 }
 ```
 
----
+***
 
 You can also use the `limit_req` module to rate limit requests. This is useful for preventing abuse and ensuring fair usage of your resources:
 
@@ -67,7 +67,7 @@ http {
 }
 ```
 
----
+***
 
 Using the `geo` directive, you can create variables based on the client's IP address. This is useful for geo-blocking or serving different content based on the user's location:
 
@@ -100,7 +100,7 @@ server {
 }
 ```
 
----
+***
 
 The `log_format` directive allows you to customize the log format. This can be useful for logging specific details about requests:
 
@@ -114,7 +114,7 @@ server {
 }
 ```
 
----
+***
 
 Using the `resolver` directive, you can specify DNS servers for NGINX to use when resolving domain names. This is useful for dynamic upstreams:
 
@@ -129,5 +129,3 @@ http {
     }
 }
 ```
-
----
