@@ -7,7 +7,7 @@ Updated:
     ulimit -Su $number_of_process # limit number of running process
     ulimit -Sm $kilobytes # limit kilobytes of RAM
 
-* * *
+---
 
     #!/bin/bash
     

@@ -35,10 +35,9 @@ Trước khi viết mình đã đơn giản suy nghĩ đến luồng cơ bản c
 
 Nhưng sau khi test thử thì mình nhận ra vấn đề:
 
-*   Workflow không thể trigger thủ công trên Github.
-    
-*   Workflow có thể đồng thời chạy nhiều instance cùng lúc, điều này gây ra vấn đề không đồng nhất vì workflow thao tác trực tiếp vào hosting.
-    
+* Workflow không thể trigger thủ công trên Github.
+
+* Workflow có thể đồng thời chạy nhiều instance cùng lúc, điều này gây ra vấn đề không đồng nhất vì workflow thao tác trực tiếp vào hosting.
 
 Do đó mình chỉnh sửa lại như sau:
 

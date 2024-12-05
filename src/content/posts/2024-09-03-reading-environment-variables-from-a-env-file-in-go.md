@@ -67,17 +67,17 @@ func ReadEnvFromEnvFile() *Env {
 
 #### Explanation
 
-1.  **Embedding the** `.env` File:
-    
+1. **Embedding the** `.env` File:
+
     ```go
     //go:embed .env
     var envStr string
     ```
-    
+
     This line uses Go’s `embed` package to embed the `.env` file into the binary. The contents of the `.env` file are stored in the `envStr` variable.
-    
-2.  **Defining the Struct**:
-    
+
+2. **Defining the Struct**:
+
     ```go
     type Env struct {
         ENV        string
@@ -85,11 +85,11 @@ func ReadEnvFromEnvFile() *Env {
         JWT_SECRET string
     }
     ```
-    
+
     The `Env` struct represents the environment variables that we expect to find in the `.env` file.
-    
-3.  **Reading and Parsing the** `.env` File:
-    
+
+3. **Reading and Parsing the** `.env` File:
+
     ```go
     lines := strings.Split(envStr, "\n")
     for _, line := range lines {
@@ -110,16 +110,15 @@ func ReadEnvFromEnvFile() *Env {
         }
     }
     ```
-    
-    *   **Skipping Invalid Lines**: Empty lines and comments are ignored.
-        
-    *   **Removing Comments**: Anything after a `#` is considered a comment and removed.
-        
-    *   **Splitting Key-Value Pairs**: Each line is split into key and value.
-        
-    *   **Setting Struct Fields**: Using reflection, the struct fields are updated based on the key-value pairs.
-        
 
-* * *
+    * **Skipping Invalid Lines**: Empty lines and comments are ignored.
+
+    * **Removing Comments**: Anything after a `#` is considered a comment and removed.
+
+    * **Splitting Key-Value Pairs**: Each line is split into key and value.
+
+    * **Setting Struct Fields**: Using reflection, the struct fields are updated based on the key-value pairs.
+
+---
 
 This approach provides a flexible way to manage environment variables by leveraging reflection in Go. It allows for dynamic updates to struct fields based on environment configuration, making it easier to manage settings without hardcoding values into your application. If you have any specific requirements or questions, feel free to ask!

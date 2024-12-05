@@ -6,7 +6,6 @@ Install Bootstrap:
 
     npm i --save bootstrap @popperjs/core
     npm i --save-dev sass
-    
 
 Create _bootstrap.scss_ with the below content:
 

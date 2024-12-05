@@ -29,9 +29,9 @@ Let’s install Angular Material:
 
 Optional steps:
 
-*   Move all Angular Material auto generated styles, providers to root module/component of the application.
-    
-*   In the root component which imports Angular Material styles, add this config for sharing css via Module Federation:
+* Move all Angular Material auto generated styles, providers to root module/component of the application.
+
+* In the root component which imports Angular Material styles, add this config for sharing css via Module Federation:
 
 ```
 @Component({

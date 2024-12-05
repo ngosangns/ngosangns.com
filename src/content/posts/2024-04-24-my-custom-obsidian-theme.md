@@ -4,7 +4,7 @@ title: My custom Obsidian theme
 ---
 Font: [JetBrains Mono](https://www.jetbrains.com/lp/mono)
 
-![](media/2024-04-24%2002.07.00.jpg)
+![Example](media/2024-04-24%2002.07.00.jpg)
 
 ```css
 @font-face {
