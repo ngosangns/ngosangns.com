@@ -1,0 +1,36 @@
+---
+published: 2024-12-05
+title: NGINX notes
+---
+
+NGINX is a configuration language. It runs by the priority of commands, not from top to bottom.
+
+---
+
+We can use the `rewrite` directive with the `last` parameter to tells NGINX to stop processing the current set of rewrite directives and start a new internal request with the rewritten URL.
+
+```nginx
+if ($allow != 1) {
+    rewrite ^ /__auth_beta$uri last;
+}
+```
+
+---
+
+In this example, `auth_request` will run before `try_files`. Because `try_files` can accept another named `location`, we can use this trick to make a fallback location if commands prior to `try_files` do not rewrite the URL:
+
+```nginx
+location /__auth_beta {
+    internal;
+    auth_request /api/beta/verify-invitation-code;
+    error_page 401 @coming_soon;
+    try_files /index.html =404;
+}
+
+location @auth_success {
+    set $allow 1;
+    rewrite ^ $request_uri last;
+}
+```
+
+---
