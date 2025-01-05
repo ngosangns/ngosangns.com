@@ -1,0 +1,178 @@
+{
+  "main": {
+    "id": "c09fc02a4748c818",
+    "type": "split",
+    "children": [
+      {
+        "id": "688e49447e53574b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4d131931a34fc4a4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/content/posts/2025-01-03-cach-toi-xay-dung-ung-dung-tu-dong-xep-lich.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "2025-01-03-cach-toi-xay-dung-ung-dung-tu-dong-xep-lich"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "63922a36ed5bd676",
+    "type": "split",
+    "children": [
+      {
+        "id": "63b34093293c3ab6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c0019a79700d8d22",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "6cae25f94d1be4cf",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "4d5c3803c1b3a66f",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "4d6362445db3face",
+    "type": "split",
+    "children": [
+      {
+        "id": "cb93d3ea0dbfb934",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5ab33eb29bc383e0",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "src/content/posts/2025-01-03-cach-toi-xay-dung-ung-dung-tu-dong-xep-lich.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 2025-01-03-cach-toi-xay-dung-ung-dung-tu-dong-xep-lich"
+            }
+          },
+          {
+            "id": "32d5392deef929b0",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "src/content/posts/2025-01-03-cach-toi-xay-dung-ung-dung-tu-dong-xep-lich.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 2025-01-03-cach-toi-xay-dung-ung-dung-tu-dong-xep-lich"
+            }
+          },
+          {
+            "id": "d3d1ce4e31cf3ee4",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "de60dcbdad8d61d9",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "src/content/posts/2025-01-03-cach-toi-xay-dung-ung-dung-tu-dong-xep-lich.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 2025-01-03-cach-toi-xay-dung-ung-dung-tu-dong-xep-lich"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "6cae25f94d1be4cf",
+  "lastOpenFiles": [
+    "src/content/posts/2024-12-05-nginx-notes.md",
+    "src/content/posts/2025-01-03-cach-toi-xay-dung-ung-dung-tu-dong-xep-lich.md",
+    "src/content/posts/2024-09-03-reading-environment-variables-from-a-env-file-in-go.md",
+    "src/content/posts/2024-04-24-my-custom-obsidian-theme.md",
+    "src/content/posts/2024-02-23-viet-github-workflows-deploy-code-cho-project-javascript-su-dung-hosting.md",
+    "src/content/posts/2024-04-22-auto-migration-command-in-laravel.md",
+    "src/content/posts/2024-02-23-laravel-command-to-bulk-generate-slugs-for-existed-table-data.md",
+    "src/content/posts/2024-02-23-config-mysql-de-full-text-search-voi-tieng-viet.md",
+    "src/content/posts/2024-02-23-auto-process-limiter-for-linux.md"
+  ]
+}
