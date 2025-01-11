@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/posts/2025-01-03-cach-toi-xay-dung-ung-dung-tu-dong-xep-lich.md",
+                "file": "src/content/posts/2025-01-03-cach-minh-toi-uu-tinh-nang-tu-dong-xep-lich.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "2025-01-03-cach-toi-xay-dung-ung-dung-tu-dong-xep-lich"
+              "title": "2025-01-03-cach-minh-toi-uu-tinh-nang-tu-dong-xep-lich"
             }
           }
         ]
@@ -166,7 +166,7 @@
   "active": "4d131931a34fc4a4",
   "lastOpenFiles": [
     "src/content/posts/2024-12-05-nginx-notes.md",
-    "src/content/posts/2025-01-03-cach-toi-xay-dung-ung-dung-tu-dong-xep-lich.md",
+    "src/content/posts/2025-01-03-cach-minh-toi-uu-tinh-nang-tu-dong-xep-lich.md",
     "src/content/posts/2024-09-03-reading-environment-variables-from-a-env-file-in-go.md",
     "src/content/posts/2024-04-24-my-custom-obsidian-theme.md",
     "src/content/posts/2024-02-23-viet-github-workflows-deploy-code-cho-project-javascript-su-dung-hosting.md",
