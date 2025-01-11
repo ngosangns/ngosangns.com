@@ -13,18 +13,18 @@ Vấn đề lớn nhất của tính năng tự động xếp lịch lần này 
 
 Trước đó, mình lưu lịch học của lớp như sau:
 
-```json
+```ts
 {
- "classCode": string, // Mã lớp
- "schedules": [ // Các lịch học của lớp
-  {
-   "startDate": number, // Ngày bắt đầu
-   "endDate": number, // Ngày kết thúc
-   "dayOfWeek": number, // Thứ trong tuần
-   "startSession": number, // Tiết bắt đầu
-   "endSession": number, // Tiết kết thúc
-  }
- ]
+    "classCode": string, // Mã lớp
+    "schedules": [ // Các lịch học của lớp
+        {
+            "startDate": number, // Ngày bắt đầu
+            "endDate": number, // Ngày kết thúc
+            "dayOfWeek": number, // Thứ trong tuần
+            "startSession": number, // Tiết bắt đầu
+            "endSession": number, // Tiết kết thúc
+        }
+    ]
 }
 ```
 
@@ -40,7 +40,7 @@ Lặp qua các lịch (schedule) của lớp 1:
   Nếu như startDate và endDate của 2 lịch chồng nhau:
    Nếu dayOfWeek của 2 lịch trùng nhau:
     Nếu startSession và endSession chồng nhau:
-     totalOverlap += Số tuần trùng + Số tiết trùng
+     totalOverlap += Số tuần trùng * Số tiết trùng
 ```
 
 Số tiết trùng được tính như sau:
@@ -53,12 +53,12 @@ Theo mình tìm hiểu thì số bit mặc định của 1 number trong Javascri
 
 Do đó mình đã nảy ra ý tưởng lưu `startSession` và `endSession` dưới dạng bit:
 
-```json
+```ts
 "schedules": [ // Các lịch học của lớp
- {
-  ...
-  "sessionBitmask": number, // Tiết học trong ngày (bitmask)
- }
+    {
+        ...
+        "sessionBitmask": number, // Tiết học trong ngày (bitmask)
+    }
 ]
 ```
 
@@ -76,14 +76,14 @@ Ví dụ từ tiết 7 -> 9:
 
 Lưu như trên thì số tiết trùng sẽ được tính như sau:
 
-```js
+```ts
 let overlapBitmask = bitmask1 & bitmask2
 // bitmask1       = 1110000000000000 = 57344
 // bitmask2       = 1111110000000000 = 64512
 // overlapBitmask = 0001110000000000 = 7168
 while(overlapBitmask) { // Đếm số bit 1
- totalOverlap++;
- overlapBitmask = overlapBitmask >> 1; // Dịch qua phải 1 bit
+    totalOverlap++;
+    overlapBitmask >>= 1; // Dịch qua phải 1 bit
 }
 ```
 
@@ -104,13 +104,13 @@ while(overlapBitmask) { // Đếm số bit 1
 cache[overlapBitmask] = localTotalOverlapSession;
 ```
 
-Kết quả là thời gian tính lịch trùng đã giảm đi, còn giảm bao nhiêu thì lười đo qué! (Cũng vì lười nên mới làm tính năng này nè!)
+Kết quả là thời gian tính lịch trùng đã giảm đi, còn giảm bao nhiêu thì lười đo qué nhưng trong khoảng chấp nhận được (khoảng +-15s cho 7 triệu tổ hợp)!
 
 ## 2. Tối ưu không gian mẫu
 
 Để tính ra tổ hợp tối ưu dựa trên số lượng lịch trùng (tối ưu nhất là số lượng lịch trùng = 0). Ta cần tính ra tất cả các tổ hợp và sau đó tính số lượng lịch trùng cho từng tổ hợp. Nghe thôi đã thấy không ổn rồi.
 
-Do đó thay vì mình tính ra tổ hợp trước rồi mới tính số tiết trùng thì mình sẽ vừa tính số tiết trùng trong lúc tạo tổ hợp. Nếu như một tổ hợp có số lượng tiết trùng vượt quá số lượng cho trước (ở đây mình đặt là 12) thì sẽ loại tổ hợp đó không tính tiếp nữa. Về thuật toán mình sử dụng Backtracking bằng cách đệ quy:
+Do đó thay vì mình tính ra tổ hợp trước rồi mới tính số tiết trùng thì mình sẽ vừa tính số tiết trùng trong lúc tạo tổ hợp. Nếu như một tổ hợp có số lượng tiết trùng vượt quá số lượng cho trước (ở đây mình đặt là tối đa 12 tiết trùng cho một tổ hợp) thì sẽ loại tổ hợp đó không tính tiếp nữa. Về thuật toán mình sử dụng Backtracking bằng cách đệ quy:
 
 ```ts
 // Hàm tạo tổ hợp
