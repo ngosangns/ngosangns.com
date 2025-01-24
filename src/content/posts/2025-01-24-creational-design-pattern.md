@@ -1,6 +1,6 @@
 ---
 published: 2025-01-24
-title: Creational Deisign Pattern (Vietnamese)
+title: Creational Design Pattern (Vietnamese)
 ---
 ## 1. Singleton
 >

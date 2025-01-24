@@ -1,6 +1,6 @@
 ---
 published: 2025-01-24
-title: Behavioral Deisign Pattern (Vietnamese)
+title: Behavioral Design Pattern (Vietnamese)
 ---
 ## 1. Chain of Responsibility
 >

@@ -1,6 +1,6 @@
 ---
 published: 2025-01-24
-title: Structural Deisign Pattern (Vietnamese)
+title: Structural Design Pattern (Vietnamese)
 ---
 ## 1. Adapter/ Wrapper
 
