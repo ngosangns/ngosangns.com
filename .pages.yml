@@ -1,0 +1,26 @@
+media:
+  type: 
+  input: src/content/posts/media
+  output: media
+content:
+  - type: collection
+    name: posts
+    label: Posts
+    path: 'src/content/posts'
+    subfolders: false
+    view:
+      fields: [ title, draft, date ]
+    fields:
+      - type: boolean
+        name: draft
+        label: 'Is draft'
+        default: true
+      - type: date
+        name: date
+        label: Date
+      - type: string
+        name: title
+        label: Title
+      - type: rich-text
+        name: body
+        label: Body
