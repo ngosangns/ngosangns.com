@@ -1,5 +1,9 @@
 ---
 published: 2023-12-15
+title: Bluetooth can't be turned on due to a missing driver (Ubuntu/Zorin OS)
+tags: ["Ubuntu", "Zorin OS", "Bluetooth", "Driver", "Linux", "Troubleshooting", "Hardware", "System"]
+category: "System Administration"
+---published: 2023-12-15
 title: Bluetooth can’t be turned on due to a missing driver (Ubuntu/Zorin OS)
 ---
 Check the result for this:

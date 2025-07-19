@@ -1,6 +1,8 @@
 ---
 published: 2024-02-23
 title: How to install Angular Material in Angular 17
+tags: ["Angular", "Angular Material", "JavaScript", "TypeScript", "Installation", "Tutorial", "Front-end", "Module Federation"]
+category: "Frontend Development"
 ---
 Modify `angular.json` from root folder:
 

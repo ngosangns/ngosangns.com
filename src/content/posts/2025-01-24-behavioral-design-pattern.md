@@ -1,6 +1,8 @@
 ---
 published: 2025-01-24
 title: Behavioral Design Pattern (Vietnamese)
+tags: ["Design Pattern", "Behavioral Pattern", "Chain of Responsibility", "Command", "Mediator", "Observer", "Strategy", "TypeScript", "Software Architecture", "Tiếng Việt"]
+category: "Software Engineering"
 ---
 ## 1. Chain of Responsibility
 >

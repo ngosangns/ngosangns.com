@@ -1,6 +1,8 @@
 ---
 published: 2023-07-02
 title: Hướng dẫn trình bày báo cáo đồ án tốt nghiệp trên Word (phần 1)
+tags: ["Microsoft Word", "Báo cáo", "Đồ án tốt nghiệp", "Tutorial", "Formatting", "Document", "Academic", "Tiếng Việt"]
+category: "Academic"
 ---
 Xin chào các bạn! Mình là Sang, một sinh viên bình thường đang theo học tại Học viện Kỹ thuật mật mã. Mới đây mình vừa hoàn thành đồ án tốt nghiệp tại trường. Qua 3 tuần làm báo cáo đồ án mình cũng đã tích lũy được chút kinh nghiệm muốn chia sẻ cho các bạn cũng như các em chuẩn bị làm báo cáo đồ án tốt nghiệp trên Microsoft Word sao cho hiệu quả nhé!
 

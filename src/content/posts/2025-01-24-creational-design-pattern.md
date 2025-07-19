@@ -1,6 +1,8 @@
 ---
 published: 2025-01-24
 title: Creational Design Pattern (Vietnamese)
+tags: ["Design Pattern", "Creational Pattern", "Singleton", "Factory", "Builder", "Abstract Factory", "Prototype", "TypeScript", "Software Architecture", "Tiếng Việt"]
+category: "Software Engineering"
 ---
 ## 1. Singleton
 >

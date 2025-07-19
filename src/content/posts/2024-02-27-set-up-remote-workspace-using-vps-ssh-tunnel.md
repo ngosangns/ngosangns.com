@@ -1,6 +1,8 @@
 ---
 published: 2024-02-27
 title: Set up remote workspace using VPS, SSH tunnel
+tags: ["SSH", "VPS", "Remote Workspace", "Tunnel", "Port Forwarding", "DevOps", "Linux", "Network"]
+category: "DevOps"
 ---
 ```
 ssh -N -A \

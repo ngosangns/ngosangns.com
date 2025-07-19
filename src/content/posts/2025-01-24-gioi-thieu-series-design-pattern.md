@@ -1,6 +1,8 @@
 ---
 published: 2025-01-24
 title: Giới thiệu series về Design Pattern của mình
+tags: ["Design Pattern", "TypeScript", "Software Architecture", "OOP", "Programming", "Gang of Four", "Best Practices", "Series"]
+category: "Software Engineering"
 ---
 Tham khảo từ nhiều nguồn. Chủ yếu là các bài viết trên Viblo.
 

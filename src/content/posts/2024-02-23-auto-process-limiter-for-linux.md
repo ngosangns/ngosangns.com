@@ -1,6 +1,8 @@
 ---
 published: 2023-05-05
 title: Auto Process Limiter for Linux
+tags: ["Linux", "Bash", "Process Management", "System Administration", "Automation", "Memory Management", "Scripting", "ulimit"]
+category: "System Administration"
 ---
 Updated:
 

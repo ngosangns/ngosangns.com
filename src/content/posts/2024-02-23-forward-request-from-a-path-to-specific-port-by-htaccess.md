@@ -1,6 +1,8 @@
 ---
 published: 2023-05-05
 title: Forward request from a path to specific port by .htaccess
+tags: ["htaccess", "Apache", "Proxy", "Port Forwarding", "Rewrite Rules", "Web Server", "DevOps"]
+category: "DevOps"
 ---
     Options +FollowSymLinks -Indexes
         IndexIgnore *

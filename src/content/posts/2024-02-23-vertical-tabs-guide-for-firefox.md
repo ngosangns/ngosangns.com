@@ -1,6 +1,8 @@
 ---
 published: 2023-12-01
 title: Vertical tabs guide for Firefox
+tags: ["Firefox", "Browser", "Extensions", "Tree Style Tabs", "Tab Management", "Productivity", "Customization", "Guide"]
+category: "Productivity"
 ---
 * Install addons:
   * Tree Style Tabs.

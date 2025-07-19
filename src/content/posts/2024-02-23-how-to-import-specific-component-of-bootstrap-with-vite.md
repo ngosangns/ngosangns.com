@@ -1,6 +1,8 @@
 ---
 published: 2023-06-02
 title: How to import specific component of Bootstrap with Vite
+tags: ["Bootstrap", "Vite", "SCSS", "Frontend", "CSS", "JavaScript", "Build Tools", "Components"]
+category: "Frontend Development"
 ---
 Install Bootstrap:
 

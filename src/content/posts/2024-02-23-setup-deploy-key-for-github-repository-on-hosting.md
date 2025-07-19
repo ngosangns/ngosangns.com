@@ -1,6 +1,8 @@
 ---
 published: 2023-10-21
 title: Setup Deploy key for Github repository on hosting
+tags: ["GitHub", "Deploy Key", "SSH", "Git", "Hosting", "Security", "DevOps", "Configuration"]
+category: "DevOps"
 ---
 1. Generate OpenSSH here: [https://8gwifi.org/sshfunctions.jsp](https://8gwifi.org/sshfunctions.jsp)
 

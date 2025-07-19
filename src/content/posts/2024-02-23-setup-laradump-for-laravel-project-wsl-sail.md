@@ -1,6 +1,8 @@
 ---
 published: 2023-06-03
 title: Setup Laradump for Laravel project (WSL + Sail)
+tags: ["Laravel", "Laradump", "WSL", "Docker", "Sail", "PHP", "Debugging", "Development", "Setup"]
+category: "Backend Development"
 ---
 1. Follow the docs of Laradumps: [https://laradumps.dev/get-started/installation.html](https://laradumps.dev/get-started/installation.html)
 

@@ -1,6 +1,8 @@
 ---
 published: 2023-10-07
 title: Laravel command to bulk generate slugs for existed table data
+tags: ["Laravel", "Artisan", "Command", "Slug", "Database", "Bulk Operations", "PHP", "Eloquent"]
+category: "Backend Development"
 ---
 Create a command in Laravel:
 

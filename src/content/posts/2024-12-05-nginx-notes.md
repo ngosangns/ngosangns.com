@@ -1,6 +1,8 @@
 ---
 published: 2024-12-05
 title: NGINX notes
+tags: ["NGINX", "Web Server", "Configuration", "Load Balancing", "Proxy", "Rewrite", "DevOps", "System Administration"]
+category: "DevOps"
 ---
 
 NGINX is a configuration language. It runs by the priority of commands, not from top to bottom.

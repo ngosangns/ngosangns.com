@@ -1,6 +1,8 @@
 ---
 published: 2025-01-24
 title: Structural Design Pattern (Vietnamese)
+tags: ["Design Pattern", "Structural Pattern", "Adapter", "Bridge", "Composite", "Decorator", "Facade", "Proxy", "TypeScript", "Software Architecture", "Tiếng Việt"]
+category: "Software Engineering"
 ---
 ## 1. Adapter/ Wrapper
 

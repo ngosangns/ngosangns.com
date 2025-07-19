@@ -1,6 +1,8 @@
 ---
 published: 2025-01-03
 title: Cách mình tối ưu tính năng tự động xếp lịch
+tags: ["Algorithm", "Optimization", "TypeScript", "Scheduling", "Performance", "Memory", "Firebase", "Web Development", "Tiếng Việt"]
+category: "Algorithms"
 ---
 
 Vừa rồi tự dưng mình có hứng thú và có một vài ý tưởng nên mình đã update lại trang web tự động xếp lịch mà mình đã phát triển từ 2019 dành cho sinh viên trường mình. Sản phẩm mình deploy ở link [này](https://tin-chi-ngosangns.web.app/).

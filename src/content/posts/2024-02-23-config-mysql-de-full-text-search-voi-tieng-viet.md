@@ -1,6 +1,8 @@
 ---
 published: 2024-01-05
 title: Config MySQL để full-text search với tiếng Việt
+tags: ["MySQL", "Full-text Search", "Database", "Vietnamese", "Configuration", "Search", "Index", "Tiếng Việt"]
+category: "Database"
 ---
 Thêm các config sau cho file my.cnf trong thư mục cài đặt MySQL:
 

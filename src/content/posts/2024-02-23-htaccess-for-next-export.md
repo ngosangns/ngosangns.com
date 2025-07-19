@@ -1,5 +1,9 @@
 ---
 published: 2023-05-15
+title: .htaccess for "next export"
+tags: ["Next.js", "htaccess", "Apache", "Static Export", "Rewrite Rules", "Web Server", "Frontend", "Configuration"]
+category: "Frontend Development"
+---published: 2023-05-15
 title: .htaccess for “next export”
 ---
     <IfModule mod_rewrite.c>

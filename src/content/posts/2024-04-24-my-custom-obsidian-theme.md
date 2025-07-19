@@ -1,6 +1,8 @@
 ---
 published: 2024-04-24
 title: My custom Obsidian theme
+tags: ["Obsidian", "CSS", "Theme", "Customization", "JetBrains Mono", "Font", "Design", "Productivity"]
+category: "Productivity"
 ---
 Font: [JetBrains Mono](https://www.jetbrains.com/lp/mono)
 

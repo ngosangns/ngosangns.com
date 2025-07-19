@@ -1,6 +1,8 @@
 ---
 published: 2023-07-12
 title: Hướng dẫn trình bày báo cáo đồ án tốt nghiệp trên Word (phần 3)
+tags: ["Microsoft Word", "Báo cáo", "Đồ án tốt nghiệp", "Shortcuts", "Paste", "Smart Selection", "Tutorial", "Academic", "Tiếng Việt"]
+category: "Academic"
 ---
 Ở phần này mình sẽ hướng dẫn một số cài đặt khác mà mình thường sử dụng trong quá trình viết báo cáo đồ án.
 

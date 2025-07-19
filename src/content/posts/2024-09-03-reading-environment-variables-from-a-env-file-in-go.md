@@ -1,6 +1,8 @@
 ---
 published: 2024-09-03
 title: Reading Environment Variables from a .env File in Go
+tags: ["Go", "Golang", "Environment Variables", "Reflection", "Configuration", "Programming", "Backend", "Tutorial"]
+category: "Backend Development"
 ---
 In this post, we’ll explore a Go function that reads environment variables from a `.env` file and populates a struct with these values. This approach leverages Go’s reflection capabilities to dynamically set struct fields based on the environment variables.
 

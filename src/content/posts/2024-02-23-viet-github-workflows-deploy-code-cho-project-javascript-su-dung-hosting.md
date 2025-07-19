@@ -1,6 +1,8 @@
 ---
 published: 2023-07-02
 title: Viết Github Workflows deploy code cho project Javascript sử dụng hosting
+tags: ["GitHub Actions", "CI/CD", "Deployment", "JavaScript", "Node.js", "Yarn", "SSH", "Automation", "DevOps", "Hosting", "Tiếng Việt"]
+category: "DevOps"
 ---
 Đợt vừa rồi mình có làm một project cá nhân nho nhỏ, sau khi lựa chọn 7749 cái công nghệ thì mình quyết định chọn Strapi (React + Node) và Nuxt để làm một website bán hàng với các chức năng bán hàng cơ bản. Điểm chung của 2 framework này đó là đều sử dụng Javascript/Typescript nên cũng khá tiện trong quá trình phát triển.
 

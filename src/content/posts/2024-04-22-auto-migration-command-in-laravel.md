@@ -1,6 +1,8 @@
 ---
 published: 2024-04-22
 title: Auto migration MySQL schema command in Laravel
+tags: ["Laravel", "MySQL", "Database", "Migration", "Automation", "PHP", "Artisan", "Schema", "Development"]
+category: "Backend Development"
 ---
 ```php
 <?php
